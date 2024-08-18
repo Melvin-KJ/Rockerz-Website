@@ -4,10 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rockerz Website</title>
+    <!-- Google Fonts CDN Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Matemasie&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <!-- CSS Style -->
-     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
   </head>
   <body>
+    <!-- header section -->
+    <div class="header">
+      <div class="container-fluid gx-0">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand logo text-uppercase" href="#">Rockerz</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Headphones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn-navbar" href="#">Buy Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
+        <div class="container">
+        <div class="content-home">
+            <div class="row content-home2">
+                <div class="col-lg-7 col-md-5">
+                    <div class="box-container">
+                        <img src="./assets/headphone-img.png" class="img-home" alt="headphone banner image">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-7">
+                    <div class="box-container2">
+                        <h1 class="home-heading">Crafted for the <span class="home-span">Ultimate Sound Journey</span></h1>
+                        <p class="para-home">Crafted with precision, our headphones offer unparalleled sound fidelity and comfort. Whether you're on the move or relaxing at home, immerse yourself in music the way it was meant to be heard.</p>
+                        <div class="btn-home">
+                            <a href="#" class="home-links">Buy Now</a>
+                            <a href="#" class="home-links btn-2">Explore</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
